@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  padding: 30px;
+  background: rgb(33, 32, 32);
+  position: fixed;
+  width: 100%;
+  color: white;
+}
+
+.titulo {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img {
+  height: 400px;
+  object-fit: cover;
+}
+/* centro */
+
+.centrarElemento {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+
+  color: white;
+}
+.fondo {
+  background: rgb(237, 212, 203);
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.container {
+  margin-top: 10px;
+}
+.h2 {
+  margin: 10px 0px;
+  color: rgb(6, 6, 59);
+}
+
+.linkMore {
+  color: red;
+}
+/* comida */
+.contenedorPadre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.precios {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  color: rgb(2, 2, 41);
+}
+/* cajas */
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+h4 {
+  margin: 5px;
+}
+
+.caja1 {
+  background: rgb(8, 109, 8);
+  border: 1px solid black;
+  margin-bottom: 50px;
+  padding: 5px;
+  color: white;
+  filter: drop-shadow(20px);
+}
+
+.caja2 {
+  background: rgb(8, 109, 8);
+  border: 1px solid black;
+  margin-bottom: 50px;
+  padding: 5px;
+  color: white;
+  filter: drop-shadow(20px);
+}
+.caja3 {
+  background: rgb(8, 109, 8);
+  border: 1px solid black;
+  margin-bottom: 50px;
+  padding: 5px;
+  color: white;
+  filter: drop-shadow(30px);
+}
+
+.h3 {
+  color: red;
+}
+.contenedorFlexible {
+  background: rgb(237, 212, 203);
+  padding: 50px;
+  display: flex;
+}
+.contenedorHijo {
+  width: 50%;
+}
+.about {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.error {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  align-items: center;
+}
+.footer {
+  text-align: center;
+  background: rgb(230, 137, 137);
+  padding: 20px;
+}
+.texto {
+  position: absolute;
+}
